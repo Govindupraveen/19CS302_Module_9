@@ -1,3 +1,4 @@
+
 # EX 45 C program that implements a queue using an array, and performs insertion (enqueue) and display operations.
 ## DATE:
 ## AIM:
@@ -10,20 +11,16 @@ To write a C program that implements a queue using an array, and performs insert
 4. Read the value using scanf. 
 5. Ask the user to make an input. 
 6. Print out the answer. 
-7. End   
+7. End
 
 ## Program:
 ```
-/*
-C program that implements a queue using an array, and performs insertion (enqueue) and display operations.
-Developed by: Karthick Kannan SP
-RegisterNumber:  212222060114
-*/
 struct Node{ 
 char data; 
 struct Node *next; 
-}*head;
-
+}*head; 
+ 
+ 
 void display() 
 { 
 struct Node *temp; 
@@ -33,11 +30,14 @@ while(temp!=NULL)
 printf("%c\n",temp->data); 
 temp=temp->next; 
 } 
+ 
+} 
 ```
 
 ## Output:
-
 ![image](https://github.com/user-attachments/assets/b402ce73-b0c8-4b2c-9fe0-ddd383f0a3bb)
+
+
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
