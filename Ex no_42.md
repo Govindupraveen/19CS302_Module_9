@@ -1,4 +1,3 @@
-
 # EX 42 C program to write a fuctions to perform push,pop,display,peek in stack using array.
 ## DATE:
 ## AIM:
@@ -15,6 +14,11 @@ To write a fuctions to perform push,pop,display,peek in stack using array.
 
 ## Program:
 ```
+/*
+C program to write a fuctions to perform push,pop,display,peek in stack using array.
+Developed by: Karthick Kannan SP
+RegisterNumber:  212222060114
+*/
 int stack[100]; 
 int size=3,top=-1,i; 
 void push (float data) 
@@ -51,7 +55,7 @@ printf("%d ",stack[top]);
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/d2596242-eca9-45e5-81c0-e3d4f5d9c88a)
+![Screenshot 2025-05-07 223039](https://github.com/user-attachments/assets/6e29e8f2-8593-4d72-9165-45389cbba9ce)
 
 
 ## Result:
