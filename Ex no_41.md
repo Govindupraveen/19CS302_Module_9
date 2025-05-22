@@ -1,10 +1,11 @@
+
 # EX 41 C program to write a function to find the peek of stack using array.
 ## DATE:
 ## AIM:
 To write a function to find the peek of stack using array.
 
 ## Algorithm
-1.  Start. 
+1. Start. 
 2. Define a variables. 
 3. Write a function to find the peek of stack using array. 
 4. Read the value using scanf. 
@@ -14,22 +15,16 @@ To write a function to find the peek of stack using array.
 
 ## Program:
 ```
-/*
-C program to write a function to find the peek of stack using array.
-Developed by: Karthick Kannan SP
-RegisterNumber:  212222060114
-*/
 int stack[100],top; 
 void peek() 
 { 
-printf("%d",stack[top]);
-}
-
+printf("%d",stack[top]); 
+} 
 ```
 
 ## Output:
-
 ![image](https://github.com/user-attachments/assets/e6990a19-fb3b-459d-b7cb-ed4c69b331cf)
+
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
