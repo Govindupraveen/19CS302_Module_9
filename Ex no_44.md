@@ -1,7 +1,5 @@
-
 # EX 44 C functions to perform enqueue, dequeue, display, peek in Queue using Array.
-## DATE: 
-
+## DATE:
 ## AIM:
 To write a C Write a functions to perform enqueue, dequeue, display, peek in Queue using Array.
 
@@ -12,10 +10,15 @@ To write a C Write a functions to perform enqueue, dequeue, display, peek in Que
 4. Read the value using scanf. 
 5. Ask the user to make an input. 
 6. Print out the answer. 
-7. End   
+7. End
 
 ## Program:
 ```
+/*
+C functions to perform enqueue, dequeue, display, peek in Queue using Array.
+Developed by: Karthick Kannan SP
+RegisterNumber: 212222060114
+*/
 char queue[50]; 
 int size=10,front,rear,i; 
 void enqueue(char data) 
@@ -49,13 +52,12 @@ void peek()
 { 
 printf("%c\n",queue[front]); 
  
-} 
- 
 }
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/3c69a98a-cbb9-4608-b259-f8cb31a3a653)
+![Screenshot 2025-05-07 223559](https://github.com/user-attachments/assets/ee8b9992-d1b1-4c5b-9274-6a9696e45f14)
+
 
 
 ## Result:
